@@ -1,0 +1,62 @@
+/*==================== БЛОКИ (Блочные элементы) ====================*/
+body{
+    height: 2000px;
+}
+.box1{
+    background: red;
+    /* ------ размеры блока --------*/
+    height: 100px;    
+    width: 100px;
+    
+    /* ------ блоки идут вниз друг за другом ------*/
+    display: block;
+    /* ------ блоки идут в линию друг за другом, если блоки с inline-block подряд 2 и более раз------ */
+    /* display: inline-block;*/
+
+    /* ------ блок остается на своей позиции при скроле страницы -------*/
+    /* position: fixed; */
+
+    /* ------ чтобы желтый блок позиционировался относительно родительского (красного)
+    в родительском указываем  position: relative, а в желтом position: absolute 
+    и данные (н-р:left: 0; bottom: 0) ------------------*/
+    position: relative;
+    right: -100px
+
+}
+.box5{
+    background:rgb(65, 6, 40);
+    height:  50px;
+    width: 50 px;
+    display: block;
+    position: absolute;
+    right: 25px;
+    bottom: 25 px;
+}
+.box2{
+    background: yellow;
+    height:  100px;
+    width: 100px;
+    /* ------блоки идут в линию друг за другом, если блоки с inline-block подряд 2 и более раз ---- */
+    display: inline-block;
+    /* display: block; */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.box3{
+    background:green;
+    height:  100px;
+    width: 100px;
+    /* display: inline-block; */
+    display: block;
+    /* position: absolute; */
+    position: fixed;
+    right: 0;
+}
+.box4{
+    background:rgb(23, 0, 128);
+    height:  100px;
+    width: 100px;
+    display: inline-block;
+} 
+
