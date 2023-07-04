@@ -8,6 +8,26 @@ body{
     /* padding: 10px ; */
     
 }
+.resume {
+    max-width: 1920 px
+    width: 100 %    
+    margin: 0 auto 0 auto;
+}    
+.resume_left {
+    width: 30 %; 
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}    
+.resume_left_ img {
+    width: 30 %;
+}    
+.resume_right {
+    width: 70 %;    
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}    
 
 a {
     color: rgb(8, 0, 0);
