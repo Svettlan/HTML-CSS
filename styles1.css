@@ -18,6 +18,9 @@ body{
     margin: 0;
     padding: 0;
     display: inline-block;
+    border: 0;
+    vertical-align: top;
+    bacckground-colir: rgb
 }    
 .resume_left_ img {
     width: 30 %;
@@ -27,6 +30,8 @@ body{
     margin: 0;
     padding: 0;
     display: inline-block;
+    border: 0;
+    vertical-align: top;
 }    
 
 a {
