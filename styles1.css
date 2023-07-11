@@ -9,24 +9,24 @@ body{
     
 }
 .resume {
-    max-width: 1920 px
-    width: 100 %    
+    max-width: 1920px;
+    width: 100% ;   
     margin: 0 auto 0 auto;
 }    
 .resume_left {
-    width: 30 %; 
+    width: 30%; 
     margin: 0;
     padding: 0;
     display: inline-block;
     border: 0;
     vertical-align: top;
-    bacckground-colir: rgb
+    background-color: rgb(202, 252, 253)
 }    
 .resume_left_ img {
-    width: 30 %;
+    width: 30%;
 }    
 .resume_right {
-    width: 70 %;    
+    width: 70%;    
     margin: 0;
     padding: 0;
     display: inline-block;
