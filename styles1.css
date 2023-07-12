@@ -6,12 +6,15 @@ body{
     background-color: #f1f1f1;
     color: #0f141e;
     /* padding: 10px ; */
+    margin: 0;
+    padding: 0;
     
 }
 .resume {
     max-width: 1920px;
     width: 100% ;   
     margin: 0 auto 0 auto;
+    padding: 0
 }    
 .resume_left {
     width: 30%; 
@@ -21,9 +24,10 @@ body{
     border: 0;
     vertical-align: top;
     background-color: rgb(202, 252, 253)
+    height: 100vh;
 }    
-.resume_left_ img {
-    width: 30%;
+.resume_left img {
+    width: 100%;
 }    
 .resume_right {
     width: 70%;    
