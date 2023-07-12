@@ -1,0 +1,17 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.flex {
+  display:flex; // блоки выстраиваются в линию горизонт.
+  justify-content: flex;
+  border:
+}
+.item {
+  border: 10px solid rgb(71, 247, 48)
+}
+.content {
+  background-color: aqua;
+  padding: 20px;
+}
+  
