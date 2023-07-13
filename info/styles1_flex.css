@@ -3,7 +3,14 @@
   margin: 0 auto;
 }
 .flex {
+  // Расположение элементов (блоков) 
   display:flex; // блоки выстраиваются в линию горизонт.
+  justify-content: flex-start; // по умолчанию слева на право с левого края
+  justify-content: flex-end;  // слев направо с правого края
+  justify-content: center;    // слева направо по центру
+  justify-content: space-around; // равномерное распределение по всей длине
+  justify-content: space-between; // крайние элементы прижме по краям, остаток подели на рав.части
+  justify-content: space-evenly; // зазоры от краев и между элементами одинаковые
   justify-content: flex;
   border:
 }
