@@ -1,2 +1,2 @@
 # HTML-CSS
-https://svettlan.github.io/HTML-CSS/blob/main/index1.html
+https://svettlan.github.io/HTML-CSS/index1.html
